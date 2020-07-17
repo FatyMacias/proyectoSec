@@ -38,7 +38,7 @@
 					</span>
 				</div>
 
-				<form action ="" method= "POST"  class="login100-form validate-form">
+				<form action ="controllers/log.php" method= "POST"  class="login100-form validate-form">
 					<?php
 					
 					if(isset($errorLogin)){
@@ -78,7 +78,7 @@
 					</div>
 
 					<div  class="container-login100-form-btn justify-content-center">
-						<button class="login100-form-btn ">
+						<button class="login100-form-btn " type="submit">
 							Ingresar
 						</button>
 					</div>
